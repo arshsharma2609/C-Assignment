@@ -19,15 +19,11 @@ printf("All three digits Adam Numbers\n");
                 temp=temp+d*pos;
                 k=k/10;
                 j--;
-        //	printf("%d  ",temp);
 	   }
-	//	printf("temp=%d, i=%d, ",temp, i);
 
             sq=i*i;//square of number.
             revnosq=temp*temp;//square of reverse of a number.
           
-	//	printf("%d, ",sq);
-	//	printf("%d\n", revnosq);
           k = 0;
 	 temp = revnosq;
 	while(temp){
